@@ -1,0 +1,7 @@
+#Project steps
+install express-generator globally
+created app - express catalog -e
+implement http methods for endpoints(users, platforms)
+implement validation
+implement config & Environment Variables
+implement database
