@@ -1,0 +1,12 @@
+{
+    "mail" : {
+        "password" : "CATALOG-MAIL-PASSWORD"
+    },
+
+    "database" :{
+        "password" : "CATALOG-DB-PASSWORD"
+    },
+   
+    "jwtPrivateKey" : "CATALOG-JWTPRIVATEDKEY"
+    
+}

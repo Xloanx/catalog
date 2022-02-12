@@ -1,0 +1,13 @@
+{
+    "name" : "Catalog::E-Learning App - Development",
+
+    "mail" : {
+        "host" : "127.0.0.1"
+    },
+    
+    "database" :{
+        "db" : "mongodb://127.0.0.1/catalog_db",
+        "user" : "catalog_user"
+    },
+    "jwtPrivateKey" : ""
+}

@@ -1,7 +1,27 @@
 #Project steps
 install express-generator globally
 created app - express catalog -e
+create "fake" models
 implement http methods for endpoints(users, platforms)
-implement validation
+implement validation 
+    --install joi
+    --implement validation
 implement config & Environment Variables
+    --install config
+    --create config dir and apprpriate files 
+        {
+        custom-environments.json, 
+        default.json, 
+        development.json, 
+        production.json, 
+        test.json
+        }
 implement database
+        {
+        --install mongoose
+        --connect to database
+        --Define Schema
+        --Define Model to replace fake models
+        --CRUD Operations
+            *Encrypt as appropriate (bcrypt)
+        }
