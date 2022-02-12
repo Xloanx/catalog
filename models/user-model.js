@@ -48,7 +48,8 @@ roles: {
 
 userSchema.methods.generateAuthToken = function(){
   return jwt.sign({ 
-    id : this._id, 
+    id : this._id,
+    name: this.name,
     isAdmin: this.isAdmin, 
     roles: this.roles 
     }, 
