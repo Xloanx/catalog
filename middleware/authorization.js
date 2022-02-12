@@ -8,6 +8,7 @@ module.exports = function (req, res, next){
 
     try {
         const decoded = jwt.verify(token, config.get('jwtPrivateKey'));
+        if(decoded === "expired") return res.status(401).send("You have been logged out! Please re-login togain access");
         req.user = decoded;
         next();      
     } catch (error) {
